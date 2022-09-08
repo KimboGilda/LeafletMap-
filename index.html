@@ -40,8 +40,7 @@
 
         // Adding a marker
         var markerCross = L.marker([47.49376641503453, 8.716714307906834]);
-        markerCross.addTo(map).bindPopup("Here is the company Crosswind");
-
+        markerCross.bindPopup("<b>Hello world!</b><br>We are Crosswind.").addTo(map);
         map.on('click', onMapClick);
         
     

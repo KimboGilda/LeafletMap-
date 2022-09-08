@@ -1,5 +1,6 @@
 
 // Click event function
+
 var popup = L.popup();
 
 function onMapClick(e) {
